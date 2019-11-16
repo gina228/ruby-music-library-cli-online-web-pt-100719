@@ -1,5 +1,5 @@
 require_relative "../config/environment.rb"
-require_relative ".."
+require_relative "..lib/concerns/findable.rb"
 class Artist 
   
   extend Concerns::Findable 
